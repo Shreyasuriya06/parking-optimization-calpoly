@@ -64,6 +64,11 @@ This consulting-style project uses simulated parking and student data to uncover
 
 ---
 
+### 📄 Data Simulation Justification
+
+All mock data in this project is modeled after public university datasets and city mobility reports. See [data_sources.md](./data_sources.md) for full documentation of assumptions and sources.
+
+
 ## 📌 Next Steps
 
 - Build a front-end dashboard for students  
