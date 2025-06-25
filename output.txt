@@ -1,0 +1,46 @@
+Output format is aligned.
+Pager usage is off.
+--- Running Analysis Queries ---
+1. Average Search Time Per Lot
+ lot_name | avg_search_time 
+----------+-----------------
+ Lot B5   |            8.50
+ Lot G3   |            8.50
+ Lot H2   |            4.25
+ Lot F4   |            4.00
+ Lot A1   |            3.00
+(5 rows)
+
+2. Peak Occupancy Per Lot
+ lot_name | peak_occupancy 
+----------+----------------
+ Lot G3   |            118
+ Lot F4   |            105
+ Lot B5   |             95
+ Lot H2   |             78
+ Lot A1   |             50
+(5 rows)
+
+3. Underutilized Lots (Average Occupancy < 50%)
+ lot_name | avg_occupancy | capacity | percent_used 
+----------+---------------+----------+--------------
+ Lot F4   |         54.40 |      200 |         27.2
+(1 row)
+
+4. Average Search Time by Parking Permit Type
+ parking_permit_type | avg_search_time 
+---------------------+-----------------
+ Commuter            |            7.50
+ Resident            |            3.83
+(2 rows)
+
+5. Busiest Day of the Week by Lot Entrances
+ day_of_week | total_entrances 
+-------------+-----------------
+ Monday      |             158
+ Tuesday     |             102
+ Wednesday   |              40
+ Friday      |              18
+(4 rows)
+
+
