@@ -1,16 +1,16 @@
-# 📘 Student Parking Optimization Project
+# Student Parking Optimization Project
 
-**Goal:** Reduce student parking search time at Cal Poly SLO by 30% using SQL-based analysis of lot usage patterns and student behavior.
+Goal: Reduce student parking search time at Cal Poly SLO by 30% using SQL-based analysis of lot usage patterns and student behavior.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This consulting-style project uses simulated parking and student data to uncover inefficiencies in parking lot usage across Cal Poly San Luis Obispo’s campus. By analyzing patterns in lot occupancy, student demographics, and peak traffic hours, the project identifies actionable strategies to optimize parking and reduce search time.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Analyze simulated campus parking data to model real-world lot usage  
 - Identify bottlenecks and underutilized lots  
@@ -18,17 +18,16 @@ This consulting-style project uses simulated parking and student data to uncover
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - **PostgreSQL**: Backend database for storing and querying data  
 - **SQL**: Core tool for data analysis and business logic  
-- **Python (optional)**: Used to simulate realistic occupancy data  
 - **Excel**: Data manipulation and basic charting  
 - **GitHub**: Project management and version control
 
 ---
 
-## 🧱 Database Schema
+## Database Schema
 
 | Table               | Description |
 |--------------------|-------------|
@@ -39,7 +38,7 @@ This consulting-style project uses simulated parking and student data to uncover
 
 ---
 
-## 📊 Sample Business Questions Answered
+## Sample Business Questions Answered
 
 - What lots have the highest average search time during peak hours?  
 - Are any lots consistently underutilized?  
@@ -48,7 +47,7 @@ This consulting-style project uses simulated parking and student data to uncover
 
 ---
 
-## 💡 Key Insights (Example)
+## Key Insights (Example)
 
 - Central lots reached 95%+ capacity by 9:15 AM  
 - Two outer lots had <40% utilization during peak hours  
@@ -56,7 +55,7 @@ This consulting-style project uses simulated parking and student data to uncover
 
 ---
 
-## ✅ Results & Recommendations
+## Results & Recommendations
 
 - Recommend permit restructuring and better signage to underused lots  
 - Propose implementation of a real-time lot availability dashboard  
@@ -64,12 +63,12 @@ This consulting-style project uses simulated parking and student data to uncover
 
 ---
 
-### 📄 Data Simulation Justification
+### Data Simulation Justification
 
 All mock data in this project is modeled after public university datasets and city mobility reports. See [data_sources.md](./data_sources.md) for full documentation of assumptions and sources.
 
 
-## 📌 Next Steps
+## Next Steps
 
 - Build a front-end dashboard for students  
 - Partner with Cal Poly transportation team to explore pilot  
